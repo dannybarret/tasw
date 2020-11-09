@@ -1,0 +1,43 @@
+<div class="row center-xs">
+    <div class="col-xs-10">
+        <div class="box">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                    <img class="icon" src="./../../../assets/icons/login-icon.svg" alt="Icon HTML and CSS" title="Icon HTML and CSS">
+                </div>
+                <div class="col-xs-12 col-sm-5 form">
+                    <h2 class="title">Login</h2>
+                    <div>
+                        <app-input
+                        label = 'User'
+                        placeholder = 'Ex. Daniela Barreto'
+                        type = 'text'
+                        (keyUpComponent)="asignUser($event)"
+                        >
+                        </app-input>
+                    </div>
+                    <div class="m-t-3">
+                        <app-input
+                        label = 'Password'
+                        type = 'password'
+                        (keyUpComponent)="asignPass($event)"
+                        >
+                        </app-input>
+                    </div> 
+                    <div class="end-xs m-b-6">
+                        <a class="link" href="#">Forget Password?</a>
+                    </div>
+                    <div class="row m-t-3 m-b-6 center-xs">
+                        <div class="col-xs-8">
+                            <app-button 
+                            label = "Login"
+                            (click)="validateUser()">
+                        </app-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

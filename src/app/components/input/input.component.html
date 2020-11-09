@@ -1,0 +1,9 @@
+<form>
+  <mat-form-field class="full-width">
+    <mat-label>{{ label }}</mat-label>
+    <input (keyup)="asignText($event.target.value)" type="{{ type }}" matInput placeholder="{{ placeholder }}">
+    <mat-error>
+      {{ error }}
+    </mat-error>
+  </mat-form-field>
+</form>

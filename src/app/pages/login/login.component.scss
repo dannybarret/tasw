@@ -1,0 +1,78 @@
+::ng-deep{
+    body {
+        background: -moz-linear-gradient(left, rgba(8,185,255,1) 0%, rgba(33,96,221,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,185,255,1)), color-stop(100%, rgba(33,96,221,1)));
+        background: -webkit-linear-gradient(left, rgba(8,185,255,1) 0%, rgba(33,96,221,1) 100%);
+        background: -o-linear-gradient(left, rgba(8,185,255,1) 0%, rgba(33,96,221,1) 100%);
+        background: -ms-linear-gradient(left, rgba(8,185,255,1) 0%, rgba(33,96,221,1) 100%);
+        background: linear-gradient(to right, rgba(8,185,255,1) 0%, rgba(33,96,221,1) 100%);
+        background-repeat: repeat-y;
+    }
+
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.box{
+    background-color: white;
+    margin: 8vh 0vh;
+    border-radius: 10px 0 10px 0;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    0%   { margin: 0vh 0vh; }
+    100% { margin: 8vh 0vh; }
+  }
+
+.icon{
+    margin: 12px 0px -18px 0px;
+    width: 90%;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 30%;
+    margin-bottom: 30px;
+    color: #3c3c3c;
+}
+
+.form{
+    padding-right: 60px;
+}
+
+.m-t-20{
+    margin-top: 20px;
+}
+
+.m-b-6{
+    margin-bottom: 6%;
+}
+
+.link{
+    color: #ced7dc;
+}
+
+@media (max-width: 780px) {
+    .icon{
+        margin: 14px;
+    }
+
+    .title{
+        margin-top: 4%;
+        margin-bottom: 16px;
+    }
+
+    .form{
+        padding: 0 14px;
+    }
+
+    .m-b-4{
+        margin-bottom: 8%;
+    }
+}

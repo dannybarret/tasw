@@ -1,0 +1,48 @@
+.search{
+    width: 100%;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text{
+    font-weight: 300;
+}
+
+.container-text{
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.back{
+    background: #eaeaea;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.back-text{
+    padding-left: 10px;
+}
+
+.content-table{
+    margin-bottom: 40px;
+}
+
+.m-t-40{
+    margin-top: 40px;
+}
+
+.table{
+    width: 100%;
+}
+
+@media (max-width: 780px) {
+    .title{
+        font-size: 16px;
+    }
+    
+}
